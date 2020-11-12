@@ -125,7 +125,7 @@
                 <!--Links-->
                 <br>
                 <a href="https://www.instagram.com/andre.colodette/" target="_black"><i class="fab fa-instagram link_icones"></i></a>
-                <a href="https://github.com/colodette-al" target="_black"><i class="fab fa-github link_icones"></i></a>
+                <a href="https://github.com/andrecolodette" target="_black"><i class="fab fa-github link_icones"></i></a>
                 <a href="http://www.linkedin.com/in/colodette-al" target="_black"><i class="fab fa-linkedin link_icones"></i></a>
                 <a href="https://www.youtube.com/channel/UCNuGQcdg6IQuP3d3ME5R7cg" target="_black"><i class="fab fa-youtube link_icones"></i></a>
                 <a href="https://drive.google.com/drive/folders/1fgfAkEPWPC8COqmfTkT0Z4428MhqO3Pl?usp=sharing" target="_black"><i class="fab fa-google-drive link_icones"></i></a>
