@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Andre Louzada Colodette">
+        <meta name="description" content="Portifólio Web do André Louzada Colodette">
+        <meta name="keywords" content="Portifolio, Web, Andre, Louzada, Colodette">
+
+        <title>André Louzada Colodette</title>
+
+        <!--Link para colocar um Icone na aba do navegador
+        <link rel="shortcut icon" href="<?php echo DIRIMG."arte/logo_favicon.ico"; ?>">
+        -->
+        <!--Importar CSS Style-->
+        <link rel="stylesheet" href="lib/css/style.css">
+
+        <!--Bootstrap 4-->
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+        <!--Incones-->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" 
+            integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" 
+            crossorigin="anonymous">
+
+    </head>
+
+    <body class="jumbotron">
+
+        <!--NavBar-->
+        <nav class="navbar navbar-expand-sm justify-content-center bg-dark navbar-dark fixed-top">
+
+            <!--Logo-->
+            <a class="navbar-brand" href="#perfil_fotos">André L Colodette</a>
+
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!--Links-->
+            <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre_mim">Sobre Mim</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#formacao">Formação</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cursos">Cursos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projetos">Projetos</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!--Perfil / Fotos-->
+        <section id="perfil_fotos" class="jumbotron text-center style_bg_color">
+            <div class="container-sm">
+                <br>
+                <br>
+                <!--Carousel / SlideShow-->
+                <div id="demo" class="carousel slide" data-ride="carousel">
+
+                    <!-- Indicators -->
+                    <ul class="carousel-indicators">
+                      <li data-target="#demo" data-slide-to="0" class="active"></li>
+                      <li data-target="#demo" data-slide-to="1"></li>
+                      <li data-target="#demo" data-slide-to="2"></li>
+                    </ul>
+                  
+                    <!-- The slideshow -->
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img class="carousel_img" src="lib/fotos/2016_cataratas_garganta_do_diabo.jpg" alt="2016 - Foz de Iguaçu/PR - Cataratas">
+                        <div class="carousel-caption carousel_legenda">
+                            <h3>Foz de Iguaçu / PR</h3>
+                            <p>Participando da Latinoware 2016!</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img class="carousel_img" src="lib/fotos/2019_Adeus_Anato_66.jpg" alt="2019 - Manguinhos/ES - Adeus Anato">
+                        <div class="carousel-caption carousel_legenda">
+                            <h3>Manguinhos / ES</h3>
+                            <p>Adeus Anato 66!</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img class="carousel_img" src="lib/fotos/2019_HackathonES.jpg" alt="2019 - Vitória/ES - HackathonES">
+                        <div class="carousel-caption carousel_legenda">
+                            <h3>Vitória / ES</h3>
+                            <p>HackatronES - 2019!</p>
+                        </div>
+                      </div>
+                    </div>
+                  
+                    <!-- Left and right controls -->
+                    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                      <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#demo" data-slide="next">
+                      <span class="carousel-control-next-icon"></span>
+                    </a>
+                  
+                </div>
+
+                <!--Título-->
+                <br>
+                <h2 class="jumbotron-heading">André Louzada Colodette</h2>
+
+                <!--Links-->
+                <br>
+                <a href="https://www.instagram.com/andre.colodette/" target="_black"><i class="fab fa-instagram link_icones"></i></a>
+                <a href="https://github.com/colodette-al" target="_black"><i class="fab fa-github link_icones"></i></a>
+                <a href="http://www.linkedin.com/in/colodette-al" target="_black"><i class="fab fa-linkedin link_icones"></i></a>
+                <a href="https://www.youtube.com/channel/UCNuGQcdg6IQuP3d3ME5R7cg" target="_black"><i class="fab fa-youtube link_icones"></i></a>
+                <a href="https://drive.google.com/drive/folders/1fgfAkEPWPC8COqmfTkT0Z4428MhqO3Pl?usp=sharing" target="_black"><i class="fab fa-google-drive link_icones"></i></a>
+                <a href="https://linktr.ee/andre.colodette" target="_black"><i class="fas fa-tree link_icones"></i></a>
+
+                <!--Email-->
+                <br>
+                <br>
+                <a href="mailto:andre.colodette@gmail.com" target="_blank" style="text-decoration: none; color: black;">
+                    <h5 class="jumbotron-heading">andre.colodette@gmail.com</h5>
+                </a>
+            </div>
+        </section>
+
+        <!--Sobre Mim-->
+        <section id="sobre_mim" class="jumbotron text-center style_bg_color">
+            <div class="container-sm">
+                <h2 class="jumbotron-heading">Sobre mim</h2>
+                <p class="lead">Um académico de medicina, que sonha em ser um neurocirurgião, 
+                    e, apaixonado por tecnologia e inovações, jogos, leitura e pela cultura japonesa!</p>
+            </div>
+        </section>
+
+        <!--Formação-->
+        <section id="formacao" class="jumbotron text-center">
+            <div class="container-sm">
+                <h2 class="jumbotron-heading">Formação</h2>
+                <br>
+                <p class="lead text-muted">
+                    Técnico em Informática<br>
+                    Instituto Federal do Espírito Santo - IFES<br>
+                    2013 - 2016<br>
+                    <br>
+                    Graduação em Medicina<br>
+                    Escola Superior de Ciências da Santa Casa de Misericódia de Vitória - EMSCAM<br>
+                    2018 - 2023
+                </p>
+            </div>
+        </section>
+
+        <!--Cursos-->
+        <section id="cursos" class="jumbotron text-center style_bg_color">
+            <div class="container-sm">
+                <h2 class="jumbotron-heading">Cursos</h2>
+                <br>
+                <p class="lead text-muted">
+                    Curso Online de Sutura<br>
+                    SuturaSkin<br>
+                    2019<br>
+                    <br>
+                    Curso de Inteligência Artificial 2019<br>
+                    Hacking Health ES<br>
+                    2019<br>
+                    <br>
+                    Formação em Inteligência Artificial aplicada a Medicina - FIAMED<br>
+                    Data Science Academy<br>
+                    2020 - 2021
+                </p>
+            </div>
+        </section>
+
+        <!--Projetos-->
+        <section id="projetos" class="jumbotron text-center style_bg_color">
+            <div class="container-sm">
+                <h2 class="jumbotron-heading">Projetos</h2>
+                <br>
+
+                <!--Card Deck-->
+                <div class="card-deck">
+
+                    <!--Card 01-->
+                    <div class="card">
+                        <img class="card-img-top" src="lib/img/inteligencia-artificial-coronavirus.jpg" alt="Covid-19 e IA">
+                        <div class="card-body">
+                            <h6 class="card-title">Grupo de Pesquisa Machine Learning e Predição Diagnóstica da Covid-19</h6>
+                            <p class="card-text">Análise dos dados de notificação dos casos de Covid-19 de Vitória/ES, 
+                                e desenvolvimento de um algorítimo de predição, em parceria com a Prefeitura Municipal de Vitória
+                            </p>
+                            <a href="https://drive.google.com/file/d/1GVkDGM69nda69mnwFGWU0cXs3MSw8baa/view?usp=sharing" 
+                                target="_black" class="btn btn-outline-dark stretched-link">Certificado</a>
+                        </div>
+                    </div>
+
+                    <!--Card 02-->
+                    <div class="card">
+                        <img class="card-img-top" src="lib/img/leiticia.png" alt="Leiticia">
+                        <div class="card-body">
+                            <h4 class="card-title">Leitícia</h4>
+                            <p class="card-text">Desenvolvimento de um banco de dados e de um sistema de 
+                                controle e gerenciamento para o Banco de Leite Humano da Irmandade da 
+                                Santa Casa de Misericódia de Vitória
+                            </p>
+                            <a href="https://drive.google.com/file/d/1aA1_0flwuEFeVagSzaNnkClARyvPvGCE/view?usp=sharing" 
+                                target="_black" class="btn btn-outline-dark stretched-link">Vídeo</a>
+                        </div>
+                    </div>
+
+                    <!--Card 03-->
+                    <div class="card">
+                        <img class="card-img-top" src="lib/img/FAPES.png" alt="FAPES">
+                        <div class="card-body">
+                            <h4 class="card-title">Mortalidade Infantil</h4>
+                            <p class="card-text">Desenvolvimento de um algoritimo de interligência artificial 
+                                para prever a mortalidade infantil, auxiliar os médicos para que possam intervir com antecedência
+                            </p>
+                            <a href="" 
+                                target="_black" class="btn btn-outline-dark stretched-link">Em Desenvolvimento</a>
+                        </div>
+                    </div>
+
+                    <!--Card 04-->
+                    <div class="card">
+                        <img class="card-img-top" src="lib/img/MNT_Logotipo.png" alt="Med Nerd Tech">
+                        <div class="card-body">
+                            <h4 class="card-title">Mortalidade Infantil</h4>
+                            <p class="card-text">Projeto pessoal, para o desenvovimento de um perfil 
+                                que tem como objetivo comaprtilhar e fornecer informação sobre Medicina e Tecnologia, 
+                                com um toque de conteúdo Nerd 
+                            </p>
+                            <a href="htps://www.mednerdtech.com.br" 
+                                target="_black" class="btn btn-outline-dark stretched-link">Site</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+   
+    </body>
+
+</html>

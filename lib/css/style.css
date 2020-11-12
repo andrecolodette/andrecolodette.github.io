@@ -1,0 +1,45 @@
+/*Resert CSS*/
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    /*font-family: Arial,sans-serif;*/
+    font-family: Calibri, Cambria;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+}
+
+/*Carousel - SlideShow*/
+
+.carousel_img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.carousel_legenda h3{
+    color: black;
+}
+
+.carousel_legenda p{
+    color: black;
+}
+
+/*Icones dos Links*/
+i.link_icones{
+    color: black;
+    font-size: 30px;
+    padding: 10px;
+}
+
+/*Extra-small*/
+@media screen and (max-width: 480px){
+    .carousel_legenda h3{
+        font-size: 20px;
+    }
+    .carousel_legenda p{
+        font-size: 15px;
+    }
+}
